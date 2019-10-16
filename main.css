@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vh);
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    
+
+    background-image: url(https://img.freepik.com/foto-gratis/texturas-pared-gris-fondo_74190-4389.jpg?size=626&ext=jpg);
+    background-attachment: fixed;
+    background-position: center;
+    }
+
+ main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; 
+ }
+
+.header{
+    width: 100%;
+    height: auto;
+    padding: 0.7em;
+    margin-bottom: 2em;
+    background-color: rgb(78, 121, 161);
+  
+  }
+
+  .header-span{
+     margin-right: 2em;
+     display: flex;
+
+    flex-direction: row;
+    justify-content: flex-end;
+      
+  }
+
+  a{
+      color: whitesmoke;   
+      text-decoration: none;
+      font-size: 1.2em;
+      text-indent: 1em;
+  }
+
+  .profile-img{
+      margin: 0;
+      padding: 0;
+
+      display: flex;
+     
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .profile-img>img{
+      width: 200px;
+      border-radius: 100px;
+  }
+
+.title1{
+    border-radius: 10px;
+    padding: 1em;  
+    margin: 1em;
+    border-color: black;
+    background-color: rgb(78, 121, 161);
+    width: 60%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.title1>h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-indent: 1em;
+    color: whitesmoke;
+}
+.option-day{
+width: 60%;
+display: flex;
+
+flex-direction: row;
+flex-flow: wrap;
+justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.post{
+   
+    width: 60%;
+    margin: 1em;
+    margin-bottom: 3em;
+    
+}
+
+article{
+    padding: 1.5em;
+    margin: 1em;
+    font-size: 2em;
+    color: whitesmoke;
+    background-color: rgb(78, 121, 161);
+    border-radius: 10px;
+    border-color: black;
+}
+
+article>p{
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(78, 121, 161);
+    padding: 0.7em;
+    width: 100%;
+
+    position: absolute;
+    text-align: center;
+
+}
+
+footer>p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin: 0;
+ }
+
+
+ .btn{
+border-radius: 10px;
+border-color:white;
+background-color:rgb(78, 121, 161);
+color: whitesmoke;
+font-size: 1.5em;
+padding: 1em;
+
+ }
+
+ .btn:hover{
+     opacity: 0.7;
+ }
+
+.hide-tuesday{
+    display: none;
+
+}
+
+.hide-wednesday{
+    display: none;
+}
+
+.hide-thursday{
+    display: none;
+}
+
+.hide-friday{
+    display: none;
+}
